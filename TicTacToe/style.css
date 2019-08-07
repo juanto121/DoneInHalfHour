@@ -1,0 +1,41 @@
+div.cell{
+    width: 200px;
+    height: 200px;
+}
+
+div.row {
+    display: flex;
+    width: 600px;
+}
+
+div#top-row {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+div#bottom-row {
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+}
+
+div.right {
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+}
+
+div.left {
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+}
+
+div.green {
+    background-color: greenyellow;
+}
+
+div.blue {
+    background-color: cornflowerblue;
+}
+
+#replay {
+    display: none;
+}
